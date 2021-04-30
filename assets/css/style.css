@@ -774,7 +774,7 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #eb5d1e;
+  border: 1px solid #eb5c1e;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
@@ -996,6 +996,37 @@ section {
   padding: 1px 0 3px 0;
   background: #ef6603;
   color: #fff;
+}
+
+.list-group-item.active {
+  z-index: 2;
+  color: #fff;
+  background-color: #ef6603;
+  border-color: #ef6603;
+}
+
+.pricing-premium {
+  background-color: #ef6603;
+}
+
+.pricing-premium h4 {
+  font-size: 36px;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 20px;
+}
+
+.pricing-premium h4 sup {
+  font-size: 20px;
+  top: -15px;
+  left: -3px;
+}
+
+.pricing-premium h4 span {
+  color: #ffffffce;
+  font-size: 16px;
+  font-weight: 300;
 }
 
 /*--------------------------------------------------------------
